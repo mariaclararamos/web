@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    
+}
+
+.carousel-container {
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    position: static;
+    align-items: center;
+}
+
+.carousel-slide {
+    display: inline-block;
+    width: 10px;
+    transition: transform 0,0s ;
+    align-items: center;
+    margin-left: center;
+
+}
+
+.carousel-slide img {
+    max-width: 200px;
+    height: auto;
+ 
+
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: red;
+}
+
+.carousel-slide{
+    padding-top: auto;
+    width: auto;
+    height: 50px;
+}
+
